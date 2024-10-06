@@ -25,6 +25,7 @@
 
     <link rel="stylesheet" href="css/responsive.css">
 
+    <link rel="icon" href="images/logo.jpeg">
     </head>
     
     <body>
@@ -41,8 +42,8 @@
         <header id="header">
             <div class="container-fluid">
                 <div class="navbar">
-                    <a href="#" id="logo" title="Elegance by TemplateMo">
-                        Spiral Media
+                    <a href="#slide01" id="logo" title="Spiral Media">
+                        <img src="images/spiral-logo.png" width="110px" height="50px"/>
                     </a>
                     <div class="navigation-row">
                         <nav id="navigation">
@@ -52,8 +53,8 @@
                                     <li data-menuanchor="slide01" class="active"><a href="#slide01">Accueil</a></li>
                                     <li data-menuanchor="slide02"><a href="#slide02">A propos</a></li>
                                     <li data-menuanchor="slide03"><a href="#slide03">Services</a></li>
-                                    <li data-menuanchor="slide04"><a href="#slide04">Chiffres clés</a></li>
-                                    <li data-menuanchor="slide05"><a href="#slide05">Nos réalisations</a></li>
+                                    <li data-menuanchor="slide04"><a href="#slide04">Nos réalisations</a></li>
+                                    <li data-menuanchor="slide05"><a href="#slide05">FAQ</a></li>
                                     <li data-menuanchor="slide06"><a href="#slide06">Avis</a></li>
                                     <li data-menuanchor="slide07"><a href="#slide07">Contact</a></li>
                                 </ul>
@@ -64,7 +65,7 @@
             </div>
         </header>
 
-        <video autoplay muted loop id="myVideo">
+        <video autoplay muted loop id="backgroundVideo">
           <source src="videos/background.mp4" type="video/mp4">
         </video>
 
@@ -74,8 +75,8 @@
                 <div class="section-inner">
                     <div class="welcome-box">
                         <span class="welcome-first animate" data-animate="fadeInUp">Bienvenue chez</span>
-                        <h1 class="welcome-title animate" data-animate="fadeInUp">Spiral media</h1>
-                        <p class="animate" data-animate="fadeInUp">Nous réalisons votre contenu et la gestion devos réseaux sociaux.
+                        <h1 class="welcome-title animate" data-animate="fadeInUp"><mark>Spiral</mark> media</h1>
+                        <p class="animate" data-animate="fadeInUp">Nous réalisons votre contenu pour la croissance de vos réseaux sociaux.
                             </p>
                         <div class="scroll-down next-section animate data-animate="fadeInUp""><img src="images/mouse-scroll.png" alt=""><span>Défilez vers le bas</span></div>
                     </div>
@@ -93,30 +94,30 @@
                                             <div class="animate" data-animate="fadeInUp">
                                                 <span>A propos</span>
                                                 <h2>Qui sommes-nous ?</h2>
-                                                <p>SPIRAL MEDIA est une agence digitale spécialisée dans le <strong>contenu vertical</strong> sur les réseaux sociaux ( <strong>TikTok</strong>, Reels d'<strong>Instagram</strong> & Short de <strong>Youtube</strong>).</p>
-                                                <p>Nous aidons nos clients à <strong>développer leurs présences</strong> en ligne et à <strong>toucher plus de clients</strong> potentiels grâce au contenu organique ou payant sur les réseaux sociaux.</p>
+                                                <p>SPIRAL MEDIA est une agence digitale spécialisée dans le <strong class="text-primary">contenu vertical</strong> sur les réseaux sociaux ( <strong class="text-primary">TikTok</strong>, Reels d'<strong class="text-primary">Instagram</strong> & Short de <strong class="text-primary">Youtube</strong>).</p>
+                                                <p>Nous aidons nos clients à <strong class="text-primary">développer leurs présences</strong> en ligne et à <strong class="text-primary">toucher plus de clients</strong> potentiels grâce au contenu organique ou payant sur les réseaux sociaux.</p>
                                             </div>
                                             <div class="facts-list owl-carousel">
                                                 <div class="item animate" data-animate="fadeInUp">
                                                     <div class="counter-box">
-                                                        <i class="fa fa-trophy counter-icon" aria-hidden="true"></i><span class="count-number">70%</span>Des vidéos visionnées sont sur smartphone
+                                                        <i class="fa fa-trophy counter-icon" aria-hidden="true"></i><span class="count-number">+160M</span>De vues
                                                     </div>
                                                 </div>
                                                 <div class="item animate" data-animate="fadeInUp">
                                                     <div class="counter-box">
-                                                        <i class="fa fa-graduation-cap counter-icon" aria-hidden="true"></i><span class="count-number">+30%</span>De hausse du taux de visionnage du contenu vertical 
+                                                        <i class="fa fa-graduation-cap counter-icon" aria-hidden="true"></i><span class="count-number">+157%</span>De vues du profil 
                                                     </div>
                                                 </div>
                                                 <div class="item animate" data-animate="fadeInUp">
                                                     <div class="counter-box">
-                                                        <i class="fa fa-desktop counter-icon" aria-hidden="true"></i><span class="count-number">79%</span>Des consommateurs préfèrent le contenu vertical
+                                                        <i class="fa fa-desktop counter-icon" aria-hidden="true"></i><span class="count-number">+50%</span>De commentaires
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="images/profile-girl.jpg" class="rounded" alt=""></figure>
+                                    <div class="col-md-6" style="align-self: center;">
+                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="images/about-img.jpeg" class="rounded" alt=""></figure>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +132,7 @@
                         <div class="col-md-8 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
                                 <span>Services</span>
-                                <h2>Découvrez notre offre</h2>
+                                <h2>Découvrez notre <mark>offre</mark></h2>
                             </div>
                             <div class="services-section">
                                 <div class="services-list owl-carousel">
@@ -194,36 +195,164 @@
             <div class="section animated-row" data-section="slide04">
                 <div class="section-inner">
                     <div class="row justify-content-center">
+                        <div class="col-md-8 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <span>Nos réalisations</span>
+                                <h2>Quelques travaux concrétisés</h2>
+                            </div>
+                            <div class="gallery-section">
+                                <div class="gallery-list owl-carousel">
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay muted loop><source type="video/mp4" src="videos/example.mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay muted loop><source type="video/mp4" src="videos/example.mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay muted loop><source type="video/mp4" src="videos/example.mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay muted loop><source type="video/mp4" src="videos/example.mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay muted loop><source type="video/mp4" src="videos/example.mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay muted loop><source src="videos/example.mp4" type="video/mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay muted loop><source type="video/mp4" src="videos/example.mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay><source type="video/mp4" src="videos/example.mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lienDescription ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <video autoplay muted loop><source type="video/mp4" src="videos/example.mp4"></video>
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Titre de la réalisation</h4>
+                                                <p>Description ou lien</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pt-2">
+                                <p>Vous pouvez retrouver nos <a class="text-primary" href="https://drive.google.com/drive/folders/1vFNZJ5VBRI6cvG-XDd51tRkFF9FFW4-i?usp=share_link">réalisations vidéos</a> sur notre drive.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section animated-row" data-section="slide05">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
                         <div class="col-md-7 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Chiffres clés</span>
-                                <h2>Performances de notre offre</h2>
-                                <p>En seulement 2 mois</p>
+                                <span>Foire aux questions</span>
+                                <h2>Questions fréquemment posées</h2>
                             </div>
                             <div class="skills-row animate" data-animate="fadeInDown">
                                 <div class="row">
                                     <div class="col-md-8 offset-md-2">   
-                                        <div class="skill-item">
-                                            <h6>Vues</h6>
-                                            <div class="skill-bar">
-                                                <span>+166M</span>
-                                                <div class="filled-bar-4"></div>
-                                            </div>          
+                                        <button class="accordion">Section 1</button>
+                                        <div class="panel">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
-                                        <div class="skill-item">
-                                            <h6>Vues du profil</h6>
-                                            <div class="skill-bar">
-                                                <span>+157%</span>
-                                                <div class="filled-bar-4"></div>
-                                            </div>          
+                                        
+                                        <button class="accordion">Section 2</button>
+                                        <div class="panel">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
-                                        <div class="skill-item">
-                                            <h6>Commentaires</h6>
-                                            <div class="skill-bar">
-                                                <span>+50%</span>
-                                                <div class="filled-bar"></div>
-                                            </div>          
-                                        </div>                
+                                        
+                                        <button class="accordion">Section 3</button>
+                                        <div class="panel">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        </div>
+                                        
+                                        <script>
+                                        var acc = document.getElementsByClassName("accordion");
+                                        var i;
+                                        
+                                        for (i = 0; i < acc.length; i++) {
+                                          acc[i].addEventListener("click", function() {
+                                            this.classList.toggle("accordion-active");
+                                            var panel = this.nextElementSibling;
+                                            if (panel.style.maxHeight) {
+                                              panel.style.maxHeight = null;
+                                            } else {
+                                              panel.style.maxHeight = panel.scrollHeight + "px";
+                                            } 
+                                          });
+                                        }
+                                        </script>   
                                     </div>
                                 </div>
                             </div>
@@ -237,127 +366,8 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Nos réalisations</span>
-                                <h2>Quelques travaux concrétisés</h2>
-                            </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap themes.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap layouts.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pt-2">
-                                <p>Vous pouvez retrouver nos <a href="https://drive.google.com/drive/folders/1vFNZJ5VBRI6cvG-XDd51tRkFF9FFW4-i?usp=share_link">réalisations vidéos</a> sur notre drive.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide05">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>TESTIMONIALS</span>
-                                <h2>what THEY SAY?</h2>
+                                <span>Avis</span>
+                                <h2>Vous en parlez !</h2>
                             </div>
                             <div class="col-md-8 offset-md-2">
                                 <div class="testimonials-section">
@@ -412,35 +422,35 @@
                         <div class="col-md-7 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
                                 <span>Contact</span>
-                                <h2>Get In Touch!</h2>
+                                <h2>Une question ?</h2>
+                                <div class="pt-2">
+                                    <p>Notre équipe vous contactera dans les <mark>plus brefs délais.</mark></p>
+                                </div>
                             </div>
                             <div class="contact-section">
                                 <div class="row">
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <div class="contact-box">
                                             <div class="contact-row">
-                                                <i class="fa fa-map-marker"></i> 123 New Street Here, Wonderful City 10220
+                                                <i class="fa fa-phone"></i> <a href="tel:0666183774">06 66 18 37 74</a> 
                                             </div>
                                             <div class="contact-row">
-                                                <i class="fa fa-phone"></i> 090 080 0210
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> info@company.co
+                                                <i class="fa fa-envelope"></i> <a href="mailto:contact@spiralmedia.agency">contact@spiralmedia.agency</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <form id="ajax-contact" method="post" action="#">
                                             <div class="input-field">
-                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Nom Prénom">
                                             </div>
                                             <div class="input-field">
-                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
+                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email ou N° de Tél.">
                                             </div>
                                             <div class="input-field">
                                                 <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
                                             </div>
-                                            <button class="btn" type="submit">Submit</button>
+                                            <button class="btn" type="submit">Envoyer</button>
                                         </form>
                                         <div id="form-messages" class="mt-3"></div>
                                     </div>
