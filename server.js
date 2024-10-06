@@ -13,6 +13,6 @@ app.use(
   })
 );
 
-http.createServer(app).listen(8086);
+http.createServer(app).listen(8088);
 
 console.log("Spiral Media started !");
