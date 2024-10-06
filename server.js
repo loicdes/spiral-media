@@ -5,7 +5,7 @@ const cors = require("cors");
 const options = {};
 
 const app = express();
-app.use(express.static(__dirname + "/public/"));
+app.use(express.static(__dirname + "/"));
 
 app.use(
   cors({
