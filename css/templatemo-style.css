@@ -567,6 +567,16 @@ a#logo {
   margin: 0 auto 0;
   font-size: 64px;
 }
+.price-tag {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  margin: 15px;
+  background: var(--color-primary);
+  font-weight: bold;
+  border-radius: 10px;
+}
 .service-box {
   font-size: 15px;
   padding: 40px 20px;
