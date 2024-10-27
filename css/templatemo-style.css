@@ -36,6 +36,9 @@ mark {
 .text-primary {
   color: var(--color-primary) !important;
 }
+button:focus {
+  outline: 1px solid var(--color-primary);
+}
 html,
 body {
   -webkit-font-smoothing: antialiased;
@@ -592,6 +595,10 @@ a#logo {
   text-transform: capitalize;
   margin-bottom: 10px;
   padding: 10px;
+  color: var(--color-primary);
+}
+.services-list .item:hover .service-box h3 {
+  color: #1e1e1e;
 }
 .service-box p:last-child {
   margin: 0;
@@ -915,10 +922,15 @@ textarea.form-control {
   font-size: 15px;
   transition: 0.4s;
 }
+.accordion:hover,
+.accordion-active {
+  color: var(--color-primary);
+}
 
 .panel {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
+  opacity: 0.5;
   transition: max-height 0.2s ease-out;
 }
