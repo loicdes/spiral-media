@@ -37,7 +37,7 @@ mark {
   color: var(--color-primary) !important;
 }
 button:focus {
-  outline: 1px solid var(--color-primary);
+  outline: none;
 }
 html,
 body {
@@ -592,7 +592,7 @@ a#logo {
 .service-box h3 {
   font-size: 22px;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 10px;
   padding: 10px;
   color: var(--color-primary);
@@ -855,22 +855,6 @@ textarea.form-control {
 .last-skill {
   border-bottom: none;
 }
-.skills-row span {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  background-color: #fff;
-  color: #1e1e1e;
-  border-radius: 50%;
-  font-size: 16px;
-  font-weight: 700;
-  left: 0;
-  top: -21px;
-  position: absolute;
-  z-index: 999;
-}
 .skills-row h6 {
   font-size: 16px;
   text-transform: uppercase;
@@ -926,7 +910,11 @@ textarea.form-control {
 .accordion-active {
   color: var(--color-primary);
 }
-
+button.accordion::after {
+  position: absolute;
+  content: "⌄";
+  right: 0;
+}
 .panel {
   padding: 0 18px;
   max-height: 0;
