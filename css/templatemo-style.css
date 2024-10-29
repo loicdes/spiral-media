@@ -241,6 +241,7 @@ figure {
   display: -ms-flexbox;
   display: flex;
   flex: 1 0 auto;
+  justify-content: center;
 }
 .preloader {
   background: -moz-linear-gradient(
