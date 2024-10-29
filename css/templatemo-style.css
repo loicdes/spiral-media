@@ -645,6 +645,7 @@ a#logo {
   position: relative;
   z-index: 9;
   border-radius: 10px;
+  max-height: 450px;
 }
 .portfolio-item .thumb-inner {
   position: absolute;
